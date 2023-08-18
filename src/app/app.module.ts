@@ -7,6 +7,9 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MovieComponent } from './movie/movie.component';
 import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from './header/header.component';
+import { HttpClientModule } from '@angular/common/http';
+import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -15,12 +18,15 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     LoginComponent,
     HomeComponent,
-    MovieComponent
+    MovieComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    NgbRatingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
