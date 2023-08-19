@@ -1,5 +1,8 @@
 # RottenPotatoesAngular
 
+<img width="2033" alt="Captura de Pantalla 2023-08-19 a las 13 21 25" src="https://github.com/martscastrillo/rotten-potatoes-angular-/assets/112553001/a985a9aa-bf2d-462b-b3c2-635ceb8eed37">
+<img width="2043" alt="Captura de Pantalla 2023-08-19 a las 13 21 12" src="https://github.com/martscastrillo/rotten-potatoes-angular-/assets/112553001/98a77b06-bd04-4f87-9d4c-0d8e87577f13">
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
 
 ## Development server
@@ -27,4 +30,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-(uname === 'suren' && pword =='1234')
+# To access the site this are the credentials
+
+- uname: suren
+- pword: 1234
