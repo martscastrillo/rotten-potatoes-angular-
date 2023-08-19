@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
+import { FeatureModule } from './feature/feature.module';
 
 
 @NgModule({
@@ -26,7 +27,7 @@ import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    NgbRatingModule
+    NgbRatingModule, FeatureModule
   ],
   providers: [],
   bootstrap: [AppComponent]

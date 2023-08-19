@@ -15,8 +15,8 @@
                         <div class="name" (click)="goToMovie('trending', movie.id)">{{ movie.name }}</div>
                         <div class="rating">
                             <span class="rating-value">{{ movie.rating }}</span>
-                            <ngb-rating [(rate)]="movie.rating" [readonly]="true" [max]="5"
-                                [ariaValueText]="ariaValueText"></ngb-rating>
+                            <app-star-rating [rating]="movie.rating" [isReadOnly]="true"
+                                class="starblock"></app-star-rating>
                         </div>
                     </div>
                 </div>
@@ -36,8 +36,8 @@
                         <div class="name" (click)="goToMovie('theatre', movie.id)">{{ movie.name }}</div>
                         <div class="rating">
                             <span class="rating-value">{{ movie.rating }}</span>
-                            <ngb-rating [(rate)]="movie.rating" [readonly]="true" [max]="5"
-                                [ariaValueText]="ariaValueText"></ngb-rating>
+                            <app-star-rating [rating]="movie.rating" [isReadOnly]="true"
+                                class="starblock"></app-star-rating>
                         </div>
                     </div>
                 </div>
@@ -51,8 +51,7 @@
                 <div class="name" (click)="goToMovie('popular', movie.id)">{{ movie.name }}</div>
                 <div class="rating">
                     <span class="rating-value">{{ movie.rating }}</span>
-                    <ngb-rating [(rate)]="movie.rating" [readonly]="true" [max]="5" [ariaValueText]="ariaValueText"
-                        class="rating-stars"></ngb-rating>
+                    <app-star-rating [rating]="movie.rating" [isReadOnly]="true" class="starblock"></app-star-rating>
                 </div>
             </div>
             <div class="view-all">View all</div>
